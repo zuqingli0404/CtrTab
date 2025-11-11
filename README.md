@@ -47,7 +47,7 @@ Finally, run the following command to process the UDF dataset:
 
 ```
 
-## Training Tabsyn Model first
+### Training Tabsyn Model first
 
 For baseline methods, use the following command for training:
 
@@ -69,12 +69,12 @@ python main.py --dataname [NAME_OF_DATASET] --method tabsyn --mode train
 ```
 
 
-## CtrTab (control module) Training and Sampling
+### CtrTab (control module) Training and Sampling
 
-'''
+```
 python train_controlnet.py --dataname=[NAME_OF_DATASET] --device=0 --scale=[NOISE_SCALE] --save_name=CtrTab
 
 python sample_controlnet.py --dataname=[NAME_OF_DATASET] --device=0 --scale=[NOISE_SCALE] --save-name=CtrTab --model-name=CtrTab
-'''
+```
 
 The default save path is "synthetic/[NAME_OF_DATASET]/CtrTab.csv"
