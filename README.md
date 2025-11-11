@@ -1,10 +1,10 @@
 # CtrTab
 Official Implementations of "Towards Synthesizing High-Dimensional Tabular Data with Limited Samples"
 
-# Towards Synthesizing High-Dimensional Tabular Data with Limited Samples
-# This implementation is adapted from:
-# https://github.com/amazon-science/tabsyn/tree/main
-# License: Apache-2.0 license
+
+## This implementation is adapted from:
+## https://github.com/amazon-science/tabsyn/tree/main
+
 
 ## Installing Dependencies
 
