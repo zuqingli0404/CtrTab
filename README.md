@@ -40,9 +40,9 @@ Then, write a .json file ([NAME_OF_DATASET].json) recording the metadata of the 
 ```
 Put this .json file in the .Info directory.
 
-Finally, run the following command to process the UDF dataset:
+Finally, run the following command to process the csv dataset:
 ```
-
+python process_dataset.py --dataname=[NAME_OF_DATASET]
 ```
 
 ### Training Tabsyn Model first
@@ -53,8 +53,6 @@ For baseline methods, use the following command for training:
 python main.py --dataname [NAME_OF_DATASET] --method [NAME_OF_BASELINE_METHODS] --mode train
 ```
 
-Options of [NAME_OF_DATASET]: adult, default, shoppers, magic, beijing, news
-Options of [NAME_OF_BASELINE_METHODS]: smote, goggle, great, stasy, codi, tabddpm
 
 For Tabsyn, use the following command for training:
 
